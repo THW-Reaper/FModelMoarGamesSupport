@@ -79,7 +79,9 @@ public enum FGame
     [Description("Rogue Company")]
     RogueCompany,
     [Description("Star Wars: Jedi Fallen Order")]
-    SwGame,
+    SwGame1,
+    [Description("Star Wars: Jedi Survivor")]
+    SwGame2,
     [Description("Core")]
     Platform,
     [Description("Days Gone")]
@@ -99,9 +101,9 @@ public enum FGame
     [Description("Tower of Fantasy")]
     Hotta,
     [Description("eFootball 2023")]
-    eFootball
+    eFootball,
     [Description("Omega Strikers")]
-    OmegaStrikers
+    OmegaStrikers,
     [Description("Pavlov VR")]
     PavlovVR
 }

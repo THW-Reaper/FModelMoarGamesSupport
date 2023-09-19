@@ -264,7 +264,8 @@ namespace FModel.Settings
             {FGame.Prospect, Constants._NO_PRESET_TRIGGER},
             {FGame.Indiana, Constants._NO_PRESET_TRIGGER},
             {FGame.RogueCompany, Constants._NO_PRESET_TRIGGER},
-            {FGame.SwGame, Constants._NO_PRESET_TRIGGER},
+            {FGame.SwGame1, Constants._NO_PRESET_TRIGGER},
+            {FGame.SwGame2, Constants._NO_PRESET_TRIGGER},
             {FGame.Platform, Constants._NO_PRESET_TRIGGER},
             {FGame.BendGame, Constants._NO_PRESET_TRIGGER},
             {FGame.TslGame, Constants._NO_PRESET_TRIGGER},
@@ -273,8 +274,8 @@ namespace FModel.Settings
             {FGame.Athena, Constants._NO_PRESET_TRIGGER},
             {FGame.MultiVersus, Constants._NO_PRESET_TRIGGER},
             {FGame.Hotta, Constants._NO_PRESET_TRIGGER},
-            {FGame.eFootball, Constants._NO_PRESET_TRIGGER}
-            {FGame.OmegaStrikers, Constants._NO_PRESET_TRIGGER}
+            {FGame.eFootball, Constants._NO_PRESET_TRIGGER},
+            {FGame.OmegaStrikers, Constants._NO_PRESET_TRIGGER},
             {FGame.PavlovVR, Constants._NO_PRESET_TRIGGER}
         };
         public IDictionary<FGame, string> Presets
@@ -297,7 +298,8 @@ namespace FModel.Settings
             {FGame.Prospect, EGame.GAME_Splitgate},
             {FGame.Indiana, EGame.GAME_UE4_21},
             {FGame.RogueCompany, EGame.GAME_RogueCompany},
-            {FGame.SwGame, EGame.GAME_UE4_LATEST},
+            {FGame.SwGame1, EGame.GAME_UE4_LATEST},
+            {FGame.SwGame2, EGame.GAME_UE4_LATEST},
             {FGame.Platform, EGame.GAME_UE4_26},
             {FGame.BendGame, EGame.GAME_UE4_11},
             {FGame.TslGame, EGame.GAME_PlayerUnknownsBattlegrounds},
@@ -306,8 +308,8 @@ namespace FModel.Settings
             {FGame.Athena, EGame.GAME_SeaOfThieves},
             {FGame.MultiVersus, EGame.GAME_UE4_26},
             {FGame.Hotta, EGame.GAME_TowerOfFantasy},
-            {FGame.eFootball, EGame.GAME_UE4_26}
-            {FGame.OmegaStrikers, EGame.GAME_UE5_1}
+            {FGame.eFootball, EGame.GAME_UE4_26},
+            {FGame.OmegaStrikers, EGame.GAME_UE5_1},
             {FGame.PavlovVR, EGame.GAME_UE5_1}
         };
         public IDictionary<FGame, EGame> OverridedGame
@@ -330,7 +332,8 @@ namespace FModel.Settings
             {FGame.Prospect, null},
             {FGame.Indiana, null},
             {FGame.RogueCompany, null},
-            {FGame.SwGame, null},
+            {FGame.SwGame1, null},
+            {FGame.SwGame2, null},
             {FGame.Platform, null},
             {FGame.BendGame, null},
             {FGame.TslGame, null},
@@ -339,8 +342,8 @@ namespace FModel.Settings
             {FGame.Athena, null},
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
-            {FGame.eFootball, null}
-            {FGame.OmegaStrikers, null}
+            {FGame.eFootball, null},
+            {FGame.OmegaStrikers, null},
             {FGame.PavlovVR, null}
         };
         public IDictionary<FGame, List<FCustomVersion>> OverridedCustomVersions
@@ -363,7 +366,8 @@ namespace FModel.Settings
             {FGame.Prospect, null},
             {FGame.Indiana, null},
             {FGame.RogueCompany, null},
-            {FGame.SwGame, null},
+            {FGame.SwGame1, null},
+            {FGame.SwGame2, null},
             {FGame.Platform, null},
             {FGame.BendGame, null},
             {FGame.TslGame, null},
@@ -372,8 +376,8 @@ namespace FModel.Settings
             {FGame.Athena, null},
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
-            {FGame.eFootball, null}
-            {FGame.OmegaStrikers, null}
+            {FGame.eFootball, null},
+            {FGame.OmegaStrikers, null},
             {FGame.PavlovVR, null}
         };
 
@@ -391,7 +395,8 @@ namespace FModel.Settings
             {FGame.Prospect, null},
             {FGame.Indiana, null},
             {FGame.RogueCompany, null},
-            {FGame.SwGame, null},
+            {FGame.SwGame1, null},
+            {FGame.SwGame2, null},
             {FGame.Platform, null},
             {FGame.BendGame, null},
             {FGame.TslGame, null},
@@ -400,8 +405,8 @@ namespace FModel.Settings
             {FGame.Athena, null},
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
-            {FGame.eFootball, null}
-            {FGame.OmegaStrikers, null}
+            {FGame.eFootball, null},
+            {FGame.OmegaStrikers, null},
             {FGame.PavlovVR, null}
         };
         public IDictionary<FGame, Dictionary<string, bool>> OverridedOptions
@@ -436,7 +441,8 @@ namespace FModel.Settings
             {FGame.Prospect, new FEndpoint[]{new (), new ()}},
             {FGame.Indiana, new FEndpoint[]{new (), new ()}},
             {FGame.RogueCompany, new FEndpoint[]{new (), new ()}},
-            {FGame.SwGame, new FEndpoint[]{new (), new ()}},
+            {FGame.SwGame1, new FEndpoint[]{new (), new ()}},
+            {FGame.SwGame2, new FEndpoint[]{new (), new ()}},
             {FGame.Platform, new FEndpoint[]{new (), new ()}},
             {FGame.BendGame, new FEndpoint[]{new (), new ()}},
             {FGame.TslGame, new FEndpoint[]{new (), new ()}},
@@ -445,8 +451,8 @@ namespace FModel.Settings
             {FGame.Athena, new FEndpoint[]{new (), new ()}},
             {FGame.MultiVersus, new FEndpoint[]{new (), new ()}},
             {FGame.Hotta, new FEndpoint[]{new (), new ()}},
-            {FGame.eFootball, new FEndpoint[]{new (), new ()}}
-            {FGame.OmegaStrikers, new FEndpoint[]{new (), new ()}}
+            {FGame.eFootball, new FEndpoint[]{new (), new ()}},
+            {FGame.OmegaStrikers, new FEndpoint[]{new (), new ()}},
             {FGame.PavlovVR, new FEndpoint[]{new (), new ()}}
         };
         public IDictionary<FGame, FEndpoint[]> CustomEndpoints
@@ -516,7 +522,8 @@ namespace FModel.Settings
             {FGame.Prospect, new List<CustomDirectory>()},
             {FGame.Indiana, new List<CustomDirectory>()},
             {FGame.RogueCompany, new List<CustomDirectory>()},
-            {FGame.SwGame, new List<CustomDirectory>()},
+            {FGame.SwGame1, new List<CustomDirectory>()},
+            {FGame.SwGame2, new List<CustomDirectory>()},
             {FGame.Platform, new List<CustomDirectory>()},
             {FGame.BendGame, new List<CustomDirectory>()},
             {FGame.TslGame, new List<CustomDirectory>()},
@@ -525,7 +532,9 @@ namespace FModel.Settings
             {FGame.Athena, new List<CustomDirectory>()},
             {FGame.MultiVersus, new List<CustomDirectory>()},
             {FGame.Hotta, new List<CustomDirectory>()},
-            {FGame.eFootball, new List<CustomDirectory>()}
+            {FGame.eFootball, new List<CustomDirectory>()},
+            {FGame.OmegaStrikers, new List<CustomDirectory>()},
+            {FGame.PavlovVR, new List<CustomDirectory>()}
         };
         public IDictionary<FGame, IList<CustomDirectory>> CustomDirectories
         {

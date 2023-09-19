@@ -366,7 +366,9 @@
                         <DataTrigger Binding="{Binding Header}" Value="g3">
                             <Setter TargetName="TreeImage" Property="Source" Value="/FModel;component/Resources/spellbreak.png" />
                         </DataTrigger>
-                        <DataTrigger Binding="{Binding Header}" Value="SwGame">
+                        <DataTrigger Binding="{Binding Header}" Value="SwGame1">
+                            <Setter TargetName="TreeImage" Property="Source" Value="/FModel;component/Resources/fallenorder.png" />
+                        <DataTrigger Binding="{Binding Header}" Value="SwGame2">
                             <Setter TargetName="TreeImage" Property="Source" Value="/FModel;component/Resources/fallenorder.png" />
                         </DataTrigger>
                         <DataTrigger Binding="{Binding Header}" Value="Prospect">

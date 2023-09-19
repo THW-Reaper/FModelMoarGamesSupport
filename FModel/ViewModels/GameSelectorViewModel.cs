@@ -107,7 +107,7 @@ public class GameSelectorViewModel : ViewModel
         yield return GetUnrealEngineGame("AzaleaAlpha", "\\Prospect\\Content\\Paks");
         yield return GetUnrealEngineGame("WorldExplorersLive", "\\WorldExplorers\\Content\\Paks");
         yield return GetUnrealEngineGame("Newt", "\\g3\\Content\\Paks");
-        yield return GetUnrealEngineGame("shoebill", "\\SwGame\\Content\\Paks");
+        yield return GetUnrealEngineGame("shoebill", "\\SwGame1\\Content\\Paks");// STAR WARS Jedi: Fallen Order™
         yield return GetUnrealEngineGame("Snoek", "\\StateOfDecay2\\Content\\Paks");
         yield return GetUnrealEngineGame("a99769d95d8f400baad1f67ab5dfe508", "\\Core\\Platform\\Content\\Paks");
         yield return GetUnrealEngineGame("Nebula", "\\BendGame\\Content");
@@ -118,10 +118,13 @@ public class GameSelectorViewModel : ViewModel
         yield return GetMojangGame("MinecraftDungeons", "\\dungeons\\dungeons\\Dungeons\\Content\\Paks");
         yield return GetSteamGame(381210, "\\DeadByDaylight\\Content\\Paks"); // Dead By Daylight
         yield return GetSteamGame(578080, "\\TslGame\\Content\\Paks"); // PUBG
-        yield return GetSteamGame(1172380, "\\SwGame\\Content\\Paks"); // STAR WARS Jedi: Fallen Order™
+        yield return GetSteamGame(1172380, "\\SwGame\\Content\\Paks"); // STAR WARS Jedi: Fallen Order™ //will same root cuase issues?
+        yield return GetSteamGame(1774580, "\\SwGame\\Content\\Paks"); //STAR WARS Jedi: Survivor™
         yield return GetSteamGame(677620, "\\PortalWars\\Content\\Paks"); // Splitgate
         yield return GetSteamGame(1172620, "\\Athena\\Content\\Paks"); // Sea of Thieves
         yield return GetSteamGame(1665460, "\\pak"); // eFootball 2023
+        yield return GetSteamGame(1869590, "\\OmegaStrikers\\Content\\Paks"); //Omega Strikers
+        yield return GetSteamGame(555160, "\\Pavlov\\Content\\Paks");//Pavlov VR
         yield return GetRockstarGamesGame("GTA III - Definitive Edition", "\\Gameface\\Content\\Paks");
         yield return GetRockstarGamesGame("GTA San Andreas - Definitive Edition", "\\Gameface\\Content\\Paks");
         yield return GetRockstarGamesGame("GTA Vice City - Definitive Edition", "\\Gameface\\Content\\Paks");

@@ -24,7 +24,7 @@ public class StringToGameConverter : IValueConverter
             "Rosemallow" => FGame.Indiana,
             "WorldExplorersLive" => FGame.WorldExplorers,
             "MinecraftDungeons" => FGame.Dungeons,
-            "shoebill" => FGame.SwGame,
+            "shoebill" => FGame.SwGame1, //ShoeBill?
             "a99769d95d8f400baad1f67ab5dfe508" => FGame.Platform,
             "711c5e95dc094ca58e5f16bd48e751d6" => FGame.MultiVersus,
             "9361c8c6d2f34b42b5f2f61093eedf48" => FGame.TslGame,
@@ -32,7 +32,10 @@ public class StringToGameConverter : IValueConverter
             578080 => FGame.TslGame,
             677620 => FGame.PortalWars,
             1172620 => FGame.Athena,
+            1774580 => FGame.SwGame2,
             1665460 => FGame.eFootball,
+            1869590 => FGame.OmegaStrikers,
+            555160 => FGame.PavlovVR,
             _ => FGame.Unknown
         };
         return ret == FGame.Unknown ? value : ret.GetDescription();
