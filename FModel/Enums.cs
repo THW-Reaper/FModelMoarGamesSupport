@@ -100,6 +100,10 @@ public enum FGame
     Hotta,
     [Description("eFootball 2023")]
     eFootball
+    [Description("Omega Strikers")]
+    OmegaStrikers
+    [Description("Pavlov VR")]
+    PavlovVR
 }
 
 public enum ELoadingMode

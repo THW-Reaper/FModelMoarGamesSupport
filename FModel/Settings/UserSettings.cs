@@ -274,6 +274,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, Constants._NO_PRESET_TRIGGER},
             {FGame.Hotta, Constants._NO_PRESET_TRIGGER},
             {FGame.eFootball, Constants._NO_PRESET_TRIGGER}
+            {FGame.OmegaStrikers, Constants._NO_PRESET_TRIGGER}
+            {FGame.PavlovVR, Constants._NO_PRESET_TRIGGER}
         };
         public IDictionary<FGame, string> Presets
         {
@@ -305,6 +307,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, EGame.GAME_UE4_26},
             {FGame.Hotta, EGame.GAME_TowerOfFantasy},
             {FGame.eFootball, EGame.GAME_UE4_26}
+            {FGame.OmegaStrikers, EGame.GAME_UE5_1}
+            {FGame.PavlovVR, EGame.GAME_UE5_1}
         };
         public IDictionary<FGame, EGame> OverridedGame
         {
@@ -336,6 +340,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
             {FGame.eFootball, null}
+            {FGame.OmegaStrikers, null}
+            {FGame.PavlovVR, null}
         };
         public IDictionary<FGame, List<FCustomVersion>> OverridedCustomVersions
         {
@@ -367,6 +373,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
             {FGame.eFootball, null}
+            {FGame.OmegaStrikers, null}
+            {FGame.PavlovVR, null}
         };
 
         private IDictionary<FGame, Dictionary<string, KeyValuePair<string, string>>> _overridedMapStructTypes = new Dictionary<FGame, Dictionary<string, KeyValuePair<string, string>>>
@@ -393,6 +401,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, null},
             {FGame.Hotta, null},
             {FGame.eFootball, null}
+            {FGame.OmegaStrikers, null}
+            {FGame.PavlovVR, null}
         };
         public IDictionary<FGame, Dictionary<string, bool>> OverridedOptions
         {
@@ -436,6 +446,8 @@ namespace FModel.Settings
             {FGame.MultiVersus, new FEndpoint[]{new (), new ()}},
             {FGame.Hotta, new FEndpoint[]{new (), new ()}},
             {FGame.eFootball, new FEndpoint[]{new (), new ()}}
+            {FGame.OmegaStrikers, new FEndpoint[]{new (), new ()}}
+            {FGame.PavlovVR, new FEndpoint[]{new (), new ()}}
         };
         public IDictionary<FGame, FEndpoint[]> CustomEndpoints
         {
